@@ -21,7 +21,7 @@ import {
 import {materialArrayControlTester, materialFields, materialRenderers} from '@jsonforms/material-renderers';
 import RatingControl from './RatingControl';
 import ratingControlTester from './ratingControlTester'
-import {MaterialArrayLayoutRenderer} from "@jsonforms/material-renderers/lib/layouts/MaterialArrayLayoutRenderer";
+import ConnectedMaterialArrayLayoutRenderer from './MaterialArrayLayoutRenderer';
 
 const data = {
   clients: [
@@ -47,7 +47,7 @@ const store = createStore(
 store.dispatch(Actions.init(data, schema, uischema));
 store.dispatch(Actions.registerRenderer(
   withIncreasedRank(1, materialArrayControlTester),
-  connect(mapStateToArrayControlProps, mapDispatchToArrayControlProps)(MaterialArrayLayoutRenderer))
+  ConnectedMaterialArrayLayoutRenderer)
 );
 store.dispatch(Actions.registerUISchema(
   (jsonSchema, schemaPath) => {
