@@ -23,13 +23,13 @@ export const MaterialArrayLayout =
      path,
      label,
      schema,
-     //createDefaultValue,
+     createDefaultValue,
      uischema,
      errors,
      addItem,
      findUISchema,
      removeItems
-   }: ArrayControlProps) => {
+   }) => {
 
     const firstPrimitiveProp = schema.properties ? find(Object.keys(schema.properties), propName => {
       const prop = schema.properties[propName];
@@ -60,7 +60,7 @@ export const MaterialArrayLayout =
                   >
                     <IconButton
                       aria-label={`Add to ${label}`}
-                      onClick={addItem(path, {})}
+                      onClick={addItem(path, createDefaultValue())}
                     >
                       <AddIcon/>
                     </IconButton>
@@ -111,7 +111,7 @@ export const MaterialArrayLayout =
                   </ExpansionPanelSummary>
                   <ExpansionPanelDetails>
                     <ResolvedJsonForms
-                      schema={schema}
+                      scopedSchema={schema}
                       uischema={foundUISchema}
                       path={childPath}
                       key={childPath}

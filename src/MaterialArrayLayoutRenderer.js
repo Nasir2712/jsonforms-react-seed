@@ -25,9 +25,9 @@ export const MaterialArrayLayoutRenderer  = (
     createDefaultValue,
     schema,
     rootSchema,
-  }: ArrayControlProps) => {
+  }) => {
 
-  const controlElement = uischema as ControlElement;
+  const controlElement = uischema ;
   const labelDescription = Helpers.createLabelDescriptionFrom(controlElement);
   const label = labelDescription.show ? labelDescription.text : '';
 
@@ -56,4 +56,4 @@ const ConnectedMaterialArrayLayoutRenderer = connect(
 export default ConnectedMaterialArrayLayoutRenderer;
 ConnectedMaterialArrayLayoutRenderer.displayName = 'MaterialArrayLayoutRenderer';
 
-export const materialArrayLayoutTester: RankedTester = rankWith(4, isObjectArrayWithNesting);
+export const materialArrayLayoutTester = rankWith(4, isObjectArrayWithNesting);

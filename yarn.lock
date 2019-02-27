@@ -859,10 +859,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@jsonforms/core@2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@jsonforms/core/-/core-2.2.0.tgz#138efabb48247d386f119e8c636226657ec0d377"
-  integrity sha512-E/IUOcX59GvwkwxjC7orkyKEpBqUC4AohLUD+0JNXXHDKZOxCQvCDsVLRLpIN3zZ56MvB6+w3l7kxAmxO2u2ww==
+"@jsonforms/core@2.2.1-alpha.4":
+  version "2.2.1-alpha.4"
+  resolved "https://registry.yarnpkg.com/@jsonforms/core/-/core-2.2.1-alpha.4.tgz#9bb48a4bd6d83f3dc1c733409beb916280bc71e3"
+  integrity sha512-uLW5mCM6EScxTXDC1sczWtQjrJ/ZlfxaSPYobddTSeRAvRV1nBzUnFSjz6wP3nOeFN2TAGdRTccDyppmi36N6A==
   dependencies:
     ajv "^6.4.0"
     json-refs "^3.0.10"
@@ -880,13 +880,11 @@
     material-ui-pickers "^1.0.0"
     moment "^2.20.1"
 
-"@jsonforms/react@2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@jsonforms/react/-/react-2.2.0.tgz#4f13f28a91eb01fc4c40bf59bf328df2e6d9f041"
-  integrity sha512-qRE/U5aA8/1Aa0MIigxXX2QduiU4MdLSfIoaq8Om8PbjAcKMw0utPzz8aTOWQ0qov/4Juk1+KEB2jFTS6wAptg==
+"@jsonforms/react@2.2.1-alpha.4":
+  version "2.2.1-alpha.4"
+  resolved "https://registry.yarnpkg.com/@jsonforms/react/-/react-2.2.1-alpha.4.tgz#7b1518b13f7791f931ccdcab3db1808d13311f5b"
+  integrity sha512-Qitk8mI9/siyq46gjvBIssEvnFJuIIMhcr9buhkUc/oM/y6lxTw16h9D+NNhVmF6P/RIGbjnPhVjYmCHi8Cbbg==
   dependencies:
-    "@types/enzyme" "^3.1.15"
-    "@types/enzyme-adapter-react-16" "^1.0.3"
     "@types/react" "^16.4.14"
     "@types/react-redux" "^5.0.19"
     lodash "^4.17.4"
@@ -1079,26 +1077,6 @@
     "@svgr/plugin-jsx" "^4.1.0"
     "@svgr/plugin-svgo" "^4.0.3"
     loader-utils "^1.1.0"
-
-"@types/cheerio@*":
-  version "0.22.10"
-  resolved "https://registry.yarnpkg.com/@types/cheerio/-/cheerio-0.22.10.tgz#780d552467824be4a241b29510a7873a7432c4a6"
-  integrity sha512-fOM/Jhv51iyugY7KOBZz2ThfT1gwvsGCfWxpLpZDgkGjpEO4Le9cld07OdskikLjDUQJ43dzDaVRSFwQlpdqVg==
-
-"@types/enzyme-adapter-react-16@^1.0.3":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@types/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.0.5.tgz#1bf30a166f49be69eeda4b81e3f24113c8b4e9d5"
-  integrity sha512-K7HLFTkBDN5RyRmU90JuYt8OWEY2iKUn43SDWEoBOXd/PowUWjLZ3Q6qMBiQuZeFYK/TOstaZxsnI0fXoAfLpg==
-  dependencies:
-    "@types/enzyme" "*"
-
-"@types/enzyme@*", "@types/enzyme@^3.1.15":
-  version "3.9.0"
-  resolved "https://registry.yarnpkg.com/@types/enzyme/-/enzyme-3.9.0.tgz#a81c91e2dfd2d70e67f013f2c0e5efed6df05489"
-  integrity sha512-o0C7ooyBtj9NKyMzn2BWN53W4J21KPhO+/v+qqQX28Pcz0Z1B3DjL9bq2ZR4TN70PVw8O7gkhuFtC7VN3tausg==
-  dependencies:
-    "@types/cheerio" "*"
-    "@types/react" "*"
 
 "@types/jest@^23.3.12":
   version "23.3.14"
@@ -5868,9 +5846,9 @@ js-tokens@^3.0.2:
   integrity sha1-mGbfOVECEw449/mWvOtlRDIJwls=
 
 js-yaml@^3.10.0, js-yaml@^3.12.0, js-yaml@^3.7.0, js-yaml@^3.9.0:
-  version "3.12.1"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.12.1.tgz#295c8632a18a23e054cf5c9d3cecafe678167600"
-  integrity sha512-um46hB9wNOKlwkHgiuyEVAybXBjwFUV0Z/RaHJblRd9DXltue9FTYvzCr9ErQrK9Adz5MU4gHWVaNUfdmrC8qA==
+  version "3.12.2"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.12.2.tgz#ef1d067c5a9d9cb65bd72f285b5d8105c77f14fc"
+  integrity sha512-QHn/Lh/7HhZ/Twc7vJYQTkjuCa0kaCcDcjK5Zlk2rvnUpy7DxMJ23+Jc2dcyvltwQVg1nygAVlB2oRDFHoRS5Q==
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
@@ -8465,9 +8443,9 @@ react-text-mask@=5.4.1:
     prop-types "^15.5.6"
 
 react-transition-group@^2.2.1, react-transition-group@^2.5.0:
-  version "2.5.3"
-  resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-2.5.3.tgz#26de363cab19e5c88ae5dbae105c706cf953bb92"
-  integrity sha512-2DGFck6h99kLNr8pOFk+z4Soq3iISydwOFeeEVPjTN6+Y01CmvbWmnN02VuTWyFdnRtIDPe+wy2q6Ui8snBPZg==
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-2.6.0.tgz#3c41cbdd9c044c5f8604d4e8d319e860919c9fae"
+  integrity sha512-VzZ+6k/adL3pJHo4PU/MHEPjW59/TGQtRsXC+wnxsx2mxjQKNHnDdJL/GpYuPJIsyHGjYbBQfIJ2JNOAdPc8GQ==
   dependencies:
     dom-helpers "^3.3.1"
     loose-envify "^1.4.0"
